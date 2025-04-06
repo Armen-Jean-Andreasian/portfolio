@@ -7,7 +7,7 @@ class Project:
     name: str
     description: str
     url: str
-    category: list[str] | str
+    category: list[str]
     logo_url: str
     screenshots_urls: list[str]
     videos_urls: list[str]
