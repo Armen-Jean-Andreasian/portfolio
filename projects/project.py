@@ -6,6 +6,7 @@ import json
 class Project:
     name: str
     description: str
+    project_type: str
     url: str
     category: list[str]
     logo_url: str
@@ -20,9 +21,10 @@ class Project:
 
 
 
-def generate_project(name: str, description: str, url: str, category: list[str], logo_url: str, screenshots_urls: list[str], videos_urls: list[str]):
+def generate_project(name: str, project_type: str, description: str, url: str, category: list[str], logo_url: str, screenshots_urls: list[str], videos_urls: list[str]):
     return Project(
         name=name,
+        project_type=project_type,
         description=description,
         url=url,
         category=category,
@@ -35,19 +37,19 @@ def generate_project(name: str, description: str, url: str, category: list[str],
 if __name__ == "__main__":
     project = generate_project(
         name="DeepFocus",
+        project_type="Private",
         description="Browser extension that blocks distracting websites and helps you stay focused.",
         url="https://addons.mozilla.org/en-US/firefox/addon/deepfocus/",
         category=["productivity", "webextension"],
-        logo_url="https://addons.cdn.mozilla.net/user-media/addon_icons/200/2000004.png?modified=1697058963",
+        logo_url="https://i.ibb.co/LdwV1Kx6/icon-48.png",
         screenshots_urls=[
-            "https://addons.cdn.mozilla.net/user-media/previews/full/200/2000004.png?modified=1697058963",
             "https://addons.mozilla.org/user-media/previews/full/317/317631.png?modified=1743362999",
+            "https://addons.mozilla.org/user-media/previews/full/318/318029.png?modified=1743830126",
             "https://addons.mozilla.org/user-media/previews/full/317/317652.png?modified=1743363003",
-            "https://addons.mozilla.org/user-media/previews/full/317/317653.png?modified=1743363003",
             "https://addons.mozilla.org/user-media/previews/full/317/317653.png?modified=1743363003",
         ],
         videos_urls=[
-            "https://www.youtube.com/watch?v=example_video"
+            "https://www.youtube.com/watch?v=3aDUypVuAtM"
         ]
     )
 
