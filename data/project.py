@@ -8,13 +8,12 @@ from typing import Optional
 class Project:
     name: str
     description_short: str
-    project_type: str
+    project_type: list[str]
     category: list[str]
-    screenshots_urls: list[str]
-    videos_urls: list[str]
+    screenshots_urls: Optional[list[str]] = None
+    video_urls: Optional[list[str]] = None
     logo_url: Optional[str] = None
-    url: Optional[str] = None
-    repository_url: Optional[str] = None
+    urls: Optional[dict[str, str]] = None # {"Source Name": "URL"}
     usage: Optional[str] = None
     description_long: Optional[str] = None
 

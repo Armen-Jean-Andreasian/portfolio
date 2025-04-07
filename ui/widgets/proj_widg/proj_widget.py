@@ -3,35 +3,40 @@ import streamlit as st
 
 from ui.widgets.proj_widg.functions import display_title_n_logo
 from ui.widgets.proj_widg.functions import display_short_description
+from ui.widgets.proj_widg.functions import display_long_description
+from ui.widgets.proj_widg.functions import display_url
+from ui.widgets.proj_widg.functions import display_category
+from ui.widgets.proj_widg.functions import display_proj_type
+from ui.widgets.proj_widg.functions import display_screenshots
+from ui.widgets.proj_widg.functions import display_videos
+
 
 if TYPE_CHECKING:
     from data.project import Project
 
 
 def display_proj_capsule(project: "Project"):
-    st.divider()
+    with st.expander(f"**{project.name}**", expanded=False):
+        # Title of the project
+        display_title_n_logo(project)
 
-    # Title of the project
-    display_title_n_logo(project)
+        # Project type
+        display_proj_type(project)
 
-    # Short Description
-    display_short_description(project)
+        # Short Description
+        display_short_description(project)
 
-    # Project link
-    st.markdown(f":blue-badge[Project link]: [URL]({project.url})", unsafe_allow_html=True)
+        # Long Description
+        display_long_description(project)
 
-    # Category
-    st.markdown(f":blue-badge[Category]: " + ", ".join(project.category))
+        # Project link
+        display_url(project)
 
-    # Display screenshots in a horizontal layout
-    st.subheader("Screenshots")
-    cols = st.columns(2)
+        # Category
+        display_category(project)
 
-    for i, screenshot_url in enumerate(project.screenshots_urls):
-        with cols[i % 2]:  # Alternate between col[0] and col[1]
-            st.image(screenshot_url, use_container_width=True)  # or set width=300
+        # Display screenshots in a horizontal layout
+        display_screenshots(project)
 
-    # Display videos as clickable items with a clean design
-    st.subheader("Videos")
-    for video_url in project.videos_urls:
-        st.video(video_url)
+        # Display videos as clickable items with a clean design
+        display_videos(project)

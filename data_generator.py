@@ -4,7 +4,10 @@ from data import Project
 if __name__ == "__main__":
     project = Project(
         name="Not Gitmodules",
-        project_type="Public",
+        project_type=[
+            "CLI",
+            "Python Package"
+        ],
         description_short="A blazing-fast, YAML-driven alternative to Git submodules for managing external modules.",
         category=["development", "version control", "python", "tools", "CI/CD"],
         logo_url="https://i.ibb.co/tw6QRzN6/pic1.png",
@@ -12,11 +15,13 @@ if __name__ == "__main__":
             "https://i.ibb.co/tw6QRzN6/pic1.png",
             "https://i.ibb.co/CpvBwyfm/pic2.png"
         ],
-        videos_urls=[
+        video_urls=[
             "https://www.youtube.com/watch?v=QkFxP_6NA84"
         ],
-        url="https://pypi.org/project/not-gitmodules/",
-        repository_url="https://github.com/Armen-Jean-Andreasian/not_gitmodules",
+        urls={
+            "PyPI": "https://pypi.org/project/not-gitmodules/",
+            "GitHub": "https://github.com/Armen-Jean-Andreasian/not_gitmodules",
+        },
         usage="Run `not_gitmodules` to sync all modules defined in the YAML file. Use flags for advanced options.",
         description_long="""
 𝗡𝗼𝘁 𝗚𝗶𝘁𝗺𝗼𝗱𝘂𝗹𝗲𝘀 is a lightweight, production-friendly OS-independent utility designed to effortlessly manage external modules in your project without the usual headaches.

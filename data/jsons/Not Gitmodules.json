@@ -1,7 +1,10 @@
 {
     "name": "Not Gitmodules",
     "description_short": "A blazing-fast, YAML-driven alternative to Git submodules for managing external modules.",
-    "project_type": "Public",
+    "project_type": [
+        "CLI",
+        "Python Package"
+    ],
     "category": [
         "development",
         "version control",
@@ -9,16 +12,18 @@
         "tools",
         "CI/CD"
     ],
-    "logo_url": "https://i.ibb.co/tw6QRzN6/pic1.png",
     "screenshots_urls": [
         "https://i.ibb.co/tw6QRzN6/pic1.png",
         "https://i.ibb.co/CpvBwyfm/pic2.png"
     ],
-    "videos_urls": [
+    "video_urls": [
         "https://www.youtube.com/watch?v=QkFxP_6NA84"
     ],
-    "url": "https://pypi.org/project/not-gitmodules/",
-    "repository_url": "https://github.com/Armen-Jean-Andreasian/not_gitmodules",
+    "logo_url": "https://i.ibb.co/tw6QRzN6/pic1.png",
+    "urls": {
+        "PyPI": "https://pypi.org/project/not-gitmodules/",
+        "GitHub": "https://github.com/Armen-Jean-Andreasian/not_gitmodules"
+    },
     "usage": "Run `not_gitmodules` to sync all modules defined in the YAML file. Use flags for advanced options.",
     "description_long": "\n\ud835\udde1\ud835\uddfc\ud835\ude01 \ud835\uddda\ud835\uddf6\ud835\ude01\ud835\uddfa\ud835\uddfc\ud835\uddf1\ud835\ude02\ud835\uddf9\ud835\uddf2\ud835\ude00 is a lightweight, production-friendly OS-independent utility designed to effortlessly manage external modules in your project without the usual headaches.\n\n\ud83d\ude80 **Blazing Fast**: Powered by multi-threading, it ensures smooth and efficient performance. Download speed is **10x faster** than Git Submodules.\n\n\ud83d\udca1 **Incredibly Simple**: Just one YAML file \u2014 no registrations, no setup pain, no wasted time. If a module exists, it skips. Want to update? Delete and rerun.\n\n\u2705 **Reliable & Universal**: Built with Python \u2014 natively supported on most OSs.\n\n\u2705 **Minimal Dependencies**: Only `PyYAML`.\n\n\u2705 **Secure & Transparent**: Open-source. Third-party contributions disabled for maximum security.\n\n\u2705 **Effortless Execution**: Run `not_gitmodules` once and you're done. Want control? Use built-in flags for fine-tuned behavior.\n\n**Keep your workflow simple, and focus on what truly matters.**\n"
 }
