@@ -1,8 +1,7 @@
 {
     "name": "DeepFocus",
-    "description": "Browser extension that blocks distracting websites and helps you stay focused.",
+    "description_short": "Browser extension that blocks distracting websites and helps you stay focused.",
     "project_type": "Private",
-    "url": "https://addons.mozilla.org/en-US/firefox/addon/deepfocus/",
     "category": [
         "productivity",
         "webextension"
@@ -16,5 +15,9 @@
     ],
     "videos_urls": [
         "https://www.youtube.com/watch?v=3aDUypVuAtM"
-    ]
+    ],
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/deepfocus/",
+    "repository_url": null,
+    "usage": null,
+    "description_long": null
 }
