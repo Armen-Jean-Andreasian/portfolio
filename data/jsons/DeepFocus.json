@@ -20,6 +20,6 @@
     "urls": {
         "Mozilla Extensions":"https://addons.mozilla.org/en-US/firefox/addon/deepfocus/"
     },
-    "usage": null,
-    "description_long": null
+    "usage": "1\uFE0F⃣ Add the distracting websites to a blacklist. Any website may be added: Facebook, LinkedIn, etc. Simply type \"facebook.com\" and press \"Add.\" Your blacklisted websites are stored in your browser.\n\n2\uFE0F⃣ Click the \"Enable\" button to switch the application to active mode. From now on, whenever you try to access those sources, you'll see a banner reminding you to get back to work.\n\n3\uFE0F⃣ Once the job is done, click on the \"Disable\" button to switch the extension back to passive mode. Now you're free to enjoy your favorite websites.\n",
+    "description_long": "Usually the distraction looks the same: you have done some part of the job, it's time to have a break. You open YouTube, TikTok, Facebook and you are gone for hours. \n\nDeep Focus won't let that happen again. It helps you fight doomscrolling and procrastination. It's made to keep you focused on the job, free from distractions."
 }
