@@ -1,7 +1,9 @@
 import streamlit as st
 
+
 def display_proj_type(project):
     st.divider()
 
-    st.markdown(f":blue-badge[Project Type]")
-    st.write(", ".join(project.project_type))
+    st.caption(f"### Project Type")
+    st.markdown(' '.join(":violet-badge[:material/star: {tag}]".format(tag=i) for i in project.project_type))
+

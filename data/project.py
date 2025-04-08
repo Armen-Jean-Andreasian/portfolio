@@ -16,6 +16,7 @@ class Project:
     urls: Optional[dict[str, str]] = None # {"Source Name": "URL"}
     usage: Optional[str] = None
     description_long: Optional[str] = None
+    installation: Optional[str] = None
 
     def dump_to_json_file(self, dir_to_save_jsons: str = "jsons") -> None:
         file_path = os.path.join(dir_to_save_jsons, f"{self.name}.json")

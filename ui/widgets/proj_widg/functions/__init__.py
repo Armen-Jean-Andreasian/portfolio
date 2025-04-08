@@ -6,3 +6,5 @@ from .display_category import display_category
 from .disp_proj_type import display_proj_type
 from .display_screenshots import display_screenshots
 from .display_videos import display_videos
+from .display_usage import display_usage
+from .disp_installation import display_installation

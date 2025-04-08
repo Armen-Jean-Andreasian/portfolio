@@ -9,6 +9,8 @@ from ui.widgets.proj_widg.functions import display_category
 from ui.widgets.proj_widg.functions import display_proj_type
 from ui.widgets.proj_widg.functions import display_screenshots
 from ui.widgets.proj_widg.functions import display_videos
+from ui.widgets.proj_widg.functions import display_usage
+from ui.widgets.proj_widg.functions import display_installation
 
 
 if TYPE_CHECKING:
@@ -26,8 +28,21 @@ def display_proj_capsule(project: "Project"):
         # Short Description
         display_short_description(project)
 
+        # Display screenshots in a horizontal layout
+        display_screenshots(project)
+
+        # Display videos as clickable items with a clean design
+        display_videos(project)
+
+
         # Long Description
         display_long_description(project)
+
+        # Usage
+        display_usage(project)
+
+        # Installation
+        display_installation(project)
 
         # Project link
         display_url(project)
@@ -35,8 +50,4 @@ def display_proj_capsule(project: "Project"):
         # Category
         display_category(project)
 
-        # Display screenshots in a horizontal layout
-        display_screenshots(project)
 
-        # Display videos as clickable items with a clean design
-        display_videos(project)
