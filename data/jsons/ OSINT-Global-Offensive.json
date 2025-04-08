@@ -1,0 +1,35 @@
+{
+  "name": "RedOps Global-Offensive",
+  "description_short": "RedOps Global-Offensive is a next-generation OSINT platform built for red teamers, ethical hackers, and cybersecurity researchers who demand precision, stealth, and power. \n\nBuilt from the ground up with zero compromises.",
+
+  "project_type": [
+    "Web App",
+    "Experimental"
+  ],
+  "category": [
+    "osint",
+    "security",
+    "cybersecurity",
+    "architecture",
+    "encryption",
+    "dockerized",
+    "microservices",
+    "framework",
+    "investigation",
+    "intelligence",
+    "full-stack",
+    "UX"
+  ],
+  "screenshots_urls": [
+    "https://raw.githubusercontent.com/Armen-Jean-Andreasian/OSINT-Global-Offensive/refs/heads/master/docs/media/home.png",
+    "https://raw.githubusercontent.com/Armen-Jean-Andreasian/OSINT-Global-Offensive/refs/heads/master/docs/media/screen2.png",
+    "https://raw.githubusercontent.com/Armen-Jean-Andreasian/OSINT-Global-Offensive/refs/heads/master/docs/media/screen1.png"
+  ],
+  "video_urls": null,
+  "logo_url": null,
+  "urls": {
+    "GitHub": "https://github.com/Armen-Jean-Andreasian/OSINT-Global-Offensive"
+  },
+  "description_long": "**RedOps Global-Offensive** is a solo-developed, full-stack OSINT (Open-Source Intelligence) platform built to demonstrate advanced architectural design, security engineering, and front-end experience in a single integrated system.\n\nIt automates data gathering, enrichment, and analysis from public sources and APIs, offering a scalable and modular system suitable for cybersecurity research, digital forensics, and threat intelligence.\n\n🚀 **Key Highlights**\n- Automated data collection from social media, public records, and APIs\n- Real-time filtering, correlation, and normalization\n- Audio-visual enhancements including animations and particle effects\n- Modular query system for fast insight retrieval\n\n🔐 **Security by Design**\n- Per-service environment secrets stored in Vault\n- Credentials encrypted using a custom salted algorithm\n- Salt and secrets are split across separate Docker images (public/private)\n- Defense mechanisms implemented against DDoS, XSS, and metadata spoofing\n\n🧠 **Architecture Overview**\n- Hybrid Monolith + Microservices design\n- `pypi/`: Abstract, reusable tooling for future projects\n- `gitmodules/`: Specialized, include-able implementation utilities\n- `services/`: Independent, optionally network-isolated components\n\n🧪 **Tech Stack**\n- **Languages**: Python, Go, Bash\n- **Frameworks**: Django, FastAPI\n- **Infra & Services**: Redis, Kafka, RabbitMQ, Elasticsearch, Vault, PostgreSQL, Logstash, Docker, Grafana\n 🛠 **Custom Tools & Libraries**\n- `DDOS-protector`: Intelligent anti-DDoS system\n- `not_gitmodules`: Fast multiprocessing alternative to Git submodules\n- `file-encryptor`: Secure file-level encryption utility\n- `hashicorp-loader`: Seamless Vault integration layer."
+
+}

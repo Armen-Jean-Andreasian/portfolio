@@ -2,15 +2,13 @@
   "name": "Not Gitmodules",
   "description_short": "\n\uD835\uDDE1\uD835\uDDFC\uD835\uDE01 \uD835\uDDDA\uD835\uDDF6\uD835\uDE01\uD835\uDDFA\uD835\uDDFC\uD835\uDDF1\uD835\uDE02\uD835\uDDF9\uD835\uDDF2\uD835\uDE00 is a blazing-fast alternative to Git submodules for managing external modules.\n\nIt is lightweight, production-friendly, OS-independent utility designed to effortlessly manage external modules in your project without the usual headaches.",
   "project_type": [
-    "Python Package"
+    "Development Tool"
   ],
   "category": [
-    "development",
-    "version control",
-    "python",
-    "tools",
+    "Development",
+    "Version control",
     "CI/CD",
-    "Development Tool",
+    "Python Package",
     "CLI"
   ],
   "screenshots_urls": [

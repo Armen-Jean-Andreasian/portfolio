@@ -1,0 +1,26 @@
+{
+  "name": "Events Near Me",
+  "description_short": "Discover, explore, and experience the best events around you with personalized feeds, real-time updates, and seamless ticketing.",
+  "project_type": [
+    "Web App"
+  ],
+  "category": [
+    "Event Discovery",
+    "Entertainment",
+    "Connectivity",
+    "Community",
+    "Concerts",
+    "Location-based",
+    "MVP"
+  ],
+  "screenshots_urls": [
+    "https://i.ibb.co/ZR3B5bFw/logo-bw.png"
+  ],
+  "video_urls": null,
+  "logo_url": "https://i.ibb.co/zHNnyzQ9/final-logo-transparent.png",
+  "urls": {
+    "Demo": "https://events-near-me.streamlit.app/"
+  },
+  "usage": "Visit the app, allow location access, and start exploring events nearby. Share and plan with friends directly from the interface.",
+  "description_long": "**Events Near Me** is designed to make discovering live events effortless.\n\n🚀 **What It Does:**\n- ✅ Personalized Event Feed – Based on your location and interests.\n- ✅ Real-Time Notifications – Stay in the loop with instant updates.\n- ✅ One-Click Ticketing – Book easily without navigating away.\n- ✅ Plan With Friends – Share event plans, invite, and attend together."
+}

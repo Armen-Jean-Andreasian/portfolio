@@ -2,15 +2,13 @@
   "name": "Project Master",
   "description_short": "A lightweight, OS-independent, utility that generates a standardized, customizable project structure to speed up the project setup. \n\nIt creates the necessary folders and files based on your specifications.",
   "project_type": [
-    "Python Package"
+    "Development Tool"
   ],
   "category": [
-    "development",
-    "python",
-    "tools",
-    "project scaffolding",
-    "automation",
-    "CLI Tool"
+    "Python Package",
+    "Structure Generator",
+    "Directory Scanner",
+    "Project Scaffolding"
   ],
   "screenshots_urls": [
     "https://i.ibb.co/VcY1M8g9/Chat-GPT-Image-Apr-8-2025-12-08-00-PM.png"
